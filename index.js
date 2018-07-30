@@ -12,7 +12,7 @@ export default class react_360_starter extends React.Component {
       <View style={styles.panel}>
         <View style={styles.greetingBox}>
           <Text style={styles.greeting}>
-            Welcome to React 360
+            Welcome Prabeen
           </Text>
         </View>
       </View>
@@ -28,12 +28,14 @@ const styles = StyleSheet.create({
     backgroundColor: 'rgba(255, 255, 255, 0.4)',
     justifyContent: 'center',
     alignItems: 'center',
+    transform: [{translate: [-20, 100, -300]}]
   },
   greetingBox: {
     padding: 20,
     backgroundColor: '#000000',
     borderColor: '#639dda',
     borderWidth: 2,
+    transform: [{translate: [-20, 100, -300]}]
   },
   greeting: {
     fontSize: 30,
