@@ -9,13 +9,11 @@ import {
 class About extends React.Component {
   render() {
     return (
-      <View style={styles.panel}>
         <View style={styles.greetingBox}>
           <Text style={styles.greeting}>
-            Welcome Prabeen
+            Something about us!!!!
           </Text>
         </View>
-      </View>
     );
   }
 };
@@ -23,15 +21,6 @@ class About extends React.Component {
 export default About;
 
 const styles = StyleSheet.create({
-  panel: {
-    // Fill the entire surface
-    width: 1000,
-    height: 600,
-    backgroundColor: 'rgba(255, 255, 255, 0.4)',
-    justifyContent: 'center',
-    alignItems: 'center',
-    transform: [{translate: [-20, 100, -300]}]
-  },
   greetingBox: {
     padding: 20,
     backgroundColor: '#000000',
